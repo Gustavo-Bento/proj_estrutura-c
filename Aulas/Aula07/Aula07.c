@@ -17,11 +17,11 @@ int main()
     srand(time(NULL));
 
     for (i = 0; i < 4; i++)
-        for (j = 0; j < 3; i++)
+        for (j = 0; j < 4; i++)
             mat[i][j] = rand() % 100;
 
     for (i = 0; i < 4; i++)
-        for (j = 0; j < 3; i++)
+        for (j = 0; j < 4; i++)
             printf("%d ", mat[i][j]);
     prinf("\n");
 
